@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">CarQuiz</string>
+    <string name="topic">Instructions</string>
+    <string name="paragraph">
+    \n\
+    <b><i><u>Guess The Car image</u></i></b>
+    \n\n
+       In this stage you should select the Brand of the displayed car image from the dropdown
+        Click on the Submit button
+        There will be a message saying Correct if your answer is right and you can continue
+        the game by clicking on the Next button.
+        And If the answer is wrong there will be a message saying that you answer is wrong and the
+        correct answer will be displayed.
+        Still you can continue with the Next button.\n\n
+    \n\n
+
+    <b><i><u>Guess Hints</u></i></b>
+    \n\n
+      In this stage you have to Guess characters according to the displayed car image
+        If the character you inserted is relevant to the displayed image
+        the entered character will be displayed under the dash line below the car image
+        And if the inserted character is wrong the character will not be displayed in the dash line.
+        \n\n
+
+
+    <b><i><u>Guess the Brand</u></i></b>
+    \n\n
+        In this stage you have to choose the Car image according to the given Brand
+        If you select the correct image Correct message will be appeared
+        And if you select incorrect image Wrong message will be appeared
+        Either Scenarios you can continue with the Next button
+ \n\n
+
+
+
+    <b><i><u>Advanced Level</u></i></b>
+    \n\n
+        This is the Advance Level stage In this stage you have to insert the names of the
+        displayed Car images and if any of your answers and you should click on the submit button
+        If any of your answers are correct you will be rewarding with points
+        \n\n
+    \n\n
+
+    </string>
+</resources>

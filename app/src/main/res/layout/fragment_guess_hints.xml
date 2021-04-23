@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GuessHintsFragment"
+    android:fillViewport="true"
+    android:background="#1376AA">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtTime"
+            android:layout_width="92dp"
+            android:background="#F7EFE2"
+            android:textColor="#F70025"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:layout_marginRight="5dp"
+            android:text="10"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="81dp"
+            android:background="#DFE166"
+            android:gravity="center"
+            android:text="Guess The Hints"
+            android:textSize="27sp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/carImg"
+            android:layout_width="390dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/im3" />
+
+        <TextView
+            android:id="@+id/txtBrand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Brand"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txCorrectCar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:gravity="center"
+            android:text="Brand"
+            android:textSize="23sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="88dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Guess Character :"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/editGuessChar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                android:gravity="left"
+                android:inputType="textCapCharacters"
+                android:maxLength="1"
+                android:textColor="#FA4032"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtCorrect"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_marginTop="20dp"
+            android:text="CORRECT!"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="227dp"
+            android:layout_height="50dp"
+            android:background="#328CC1"
+            android:textColor="#FFFF"
+            android:textStyle="bold"
+            android:textSize="12pt"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Submit" />
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="227dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorAccent"
+            android:text="Next"
+            android:textColor="#FFFF"
+            android:textStyle="bold"
+            android:textSize="12pt" />
+
+    </LinearLayout>
+</ScrollView>

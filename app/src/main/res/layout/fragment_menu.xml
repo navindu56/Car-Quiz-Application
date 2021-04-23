@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuFragment"
+    android:fillViewport="true"
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1F2221"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/aboutApp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="0dp"
+            android:background="#DD466A"
+            android:text="Instructions"
+            android:textSize="9pt"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="114dp"
+            android:src="@drawable/splashupcopy" />
+
+        <Button
+            android:id="@+id/guessCar"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="370dp"
+            android:layout_height="66dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="#BBCF4A"
+            android:text="Guess the Car"
+            android:textSize="9pt" />
+
+        <Button
+            android:id="@+id/guessHint"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="370dp"
+            android:layout_height="66dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="#F4EC6A"
+            android:text="Guess Hints"
+            android:textSize="9pt" />
+
+        <Button
+            android:id="@+id/guessBrand"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="370dp"
+            android:layout_height="66dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="#F77604"
+            android:text="Guess the Brand"
+            android:textSize="9pt" />
+
+        <Button
+            android:id="@+id/advancedLevel"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="370dp"
+            android:layout_height="66dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="#FA6775"
+            android:text="Advanced Level"
+            android:textSize="9pt" />
+
+        <Switch
+            android:id="@+id/timerSwitch"
+            android:layout_width="212dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="#FEF3E2"
+            android:text="Timer" />
+
+    </LinearLayout>
+</ScrollView>

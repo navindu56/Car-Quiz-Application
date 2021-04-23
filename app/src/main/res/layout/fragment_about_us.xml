@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#41514F"
+    tools:context=".AboutUs">
+
+    <TextView
+        android:id="@+id/topicText"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:background="#66D3E1"
+        android:gravity="center"
+        android:padding="7dp"
+        android:text="@string/topic"
+        android:textColor="@color/colorBlack"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/topicText">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/paragraph"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:autoLink="web"
+                android:background="#DA3C61"
+                android:gravity="center"
+                android:padding="7dp"
+                android:text="@string/paragraph"
+                android:textColor="@color/colorBlack"
+                android:textStyle="italic" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
